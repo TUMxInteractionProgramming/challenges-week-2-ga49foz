@@ -1,0 +1,212 @@
+      /* #2 #colorful #palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+
+          * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+          */
+
+      /*GLOBAL*/
+
+      /*global styles */
+
+      /* #2 #colorful #palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+
+          * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+          */
+
+      * {
+          /* #2 #font #faces */
+          font-family: 'Arial', sans-serif;
+          margin: 0;
+          padding: 0;
+      }
+
+
+      div {
+          width: 80%;
+          background-color: white;
+      }
+
+
+
+
+      body {
+          /* #2 #colorful #background */
+          background-color: #F5F5F5;
+      }
+
+
+
+
+      /*APP BAR*/
+
+      h1 {
+          /* #2 #colourful #app-bar */
+          background-color: #3F51B5;
+          color: white;
+      }
+
+      button {
+          /* #2 #colourful #plusfive */
+          background-color: #CDDC39;
+          color: black;
+          /* #2 #font capital #letters */
+          text-transform: uppercase;
+      }
+
+
+      /*CHANNEL LIST*/
+
+      /*styles for channel area*/
+
+      h2 {
+          /* #2 #colorful #channelandchat */
+          background-color: white;
+      }
+
+
+
+
+
+      /*TAB BAR*/
+
+      ul {
+          background-color: white;
+          list-style-type: none;
+
+      }
+
+
+      ul li {
+          height: 32px;
+          font-size: 16px;
+          padding: 16px;
+          border-bottom: 1px #F5F5F5 solid;
+
+      }
+
+      ul .selected {
+          color: #3F51B5;
+          border-left: 4px #3F51B5 solid;
+      }
+
+
+
+      #tab-bar {
+          text-align: center;
+
+          width: 100%;
+      }
+
+      #tab-bar button img {
+          display: block;
+          margin: 0px auto 4px auto;
+
+      }
+
+
+      #tab-bar button {
+          background-color: white;
+          border: 10px black;
+          font-size: 13px;
+          height: 72px;
+          width: 33%;
+          padding: 16px black;
+          text-transform: center;
+
+      }
+
+      #tab-bar button.selected {
+
+          border-bottom: 4px #3F51B5 solid;
+
+
+      }
+
+
+
+
+      /*MESSAGES*/
+
+      .message {
+          margin-left: 2.5%;
+
+      }
+
+
+      .own-message {
+          margin-left: 17.5%;
+
+      }
+
+      .own-message h3 a,
+      .message h3 a {
+          color: black;
+      }
+
+      .own-message button,
+      .message button {
+          background: #CDDC39;
+          color: black;
+          text-transform: uppercase;
+
+      }
+
+      .own-message p,
+      .message p {
+          background: white;
+          padding: 16px;
+
+      }
+
+      .own-message em,
+      .message em {
+
+
+          font-size: larger;
+          font-style: normal;
+
+      }
+
+      .message,
+      .own-message {
+
+          width 80%;
+          margin-bottom: 8px;
+          font-size: medium;
+          background: inherit;
+
+      }
+
+
+
+      /*styles for chat area*/
+
+      p {
+          /* #2 #colorful #channelandchat */
+          background-color: white;
+      }
+
+      strong {
+          /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+          text-transform: uppercase;
+      }
+
+      h3 {
+          /* #2 #font #metadata is now medium */
+          font-size: medium;
+      }
+
+      em {
+          /* #2 #font #remaining overrides the default italic appearance of em elements*/
+          font-size: larger;
+          font-style: normal;
+      }
